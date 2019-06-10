@@ -55,7 +55,7 @@ gdjs.TitleScreenCode.condition1IsTrue_1 = {val:false};
 gdjs.TitleScreenCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.TitleScreenCode.eventsList0x70dcbc = function(runtimeScene) {
+gdjs.TitleScreenCode.eventsList0x70dbcc = function(runtimeScene) {
 
 {
 
@@ -273,8 +273,8 @@ gdjs.TitleScreenCode.GDnoMistakeObjects2.createFrom(runtimeScene.getObjects("noM
 }
 
 
-}; //End of gdjs.TitleScreenCode.eventsList0x70dcbc
-gdjs.TitleScreenCode.mapOfGDgdjs_46TitleScreenCode_46GDBeginObjects3Objects = Hashtable.newFrom({"Begin": gdjs.TitleScreenCode.GDBeginObjects3});gdjs.TitleScreenCode.eventsList0x70f414 = function(runtimeScene) {
+}; //End of gdjs.TitleScreenCode.eventsList0x70dbcc
+gdjs.TitleScreenCode.mapOfGDgdjs_46TitleScreenCode_46GDBeginObjects3Objects = Hashtable.newFrom({"Begin": gdjs.TitleScreenCode.GDBeginObjects3});gdjs.TitleScreenCode.eventsList0x70f38c = function(runtimeScene) {
 
 {
 
@@ -282,7 +282,7 @@ gdjs.TitleScreenCode.mapOfGDgdjs_46TitleScreenCode_46GDBeginObjects3Objects = Ha
 gdjs.TitleScreenCode.condition0IsTrue_0.val = false;
 {
 {gdjs.TitleScreenCode.conditionTrue_1 = gdjs.TitleScreenCode.condition0IsTrue_0;
-gdjs.TitleScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7403748);
+gdjs.TitleScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7403612);
 }
 }if (gdjs.TitleScreenCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Delay Your Dreams.wav", 1, true, 100, 1);
@@ -301,7 +301,7 @@ gdjs.TitleScreenCode.condition0IsTrue_0.val = !(gdjs.evtTools.common.getVariable
 }if ( gdjs.TitleScreenCode.condition0IsTrue_0.val ) {
 {
 {gdjs.TitleScreenCode.conditionTrue_1 = gdjs.TitleScreenCode.condition1IsTrue_0;
-gdjs.TitleScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7404412);
+gdjs.TitleScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7404276);
 }
 }}
 if (gdjs.TitleScreenCode.condition1IsTrue_0.val) {
@@ -323,7 +323,7 @@ gdjs.TitleScreenCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNu
 }if ( gdjs.TitleScreenCode.condition0IsTrue_0.val ) {
 {
 {gdjs.TitleScreenCode.conditionTrue_1 = gdjs.TitleScreenCode.condition1IsTrue_0;
-gdjs.TitleScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7405500);
+gdjs.TitleScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7405364);
 }
 }}
 if (gdjs.TitleScreenCode.condition1IsTrue_0.val) {
@@ -335,8 +335,8 @@ if (gdjs.TitleScreenCode.condition1IsTrue_0.val) {
 }
 
 
-}; //End of gdjs.TitleScreenCode.eventsList0x70f414
-gdjs.TitleScreenCode.mapOfGDgdjs_46TitleScreenCode_46GDnoMistakeObjects3Objects = Hashtable.newFrom({"noMistake": gdjs.TitleScreenCode.GDnoMistakeObjects3});gdjs.TitleScreenCode.eventsList0x710294 = function(runtimeScene) {
+}; //End of gdjs.TitleScreenCode.eventsList0x70f38c
+gdjs.TitleScreenCode.mapOfGDgdjs_46TitleScreenCode_46GDnoMistakeObjects3Objects = Hashtable.newFrom({"noMistake": gdjs.TitleScreenCode.GDnoMistakeObjects3});gdjs.TitleScreenCode.eventsList0x71020c = function(runtimeScene) {
 
 {
 
@@ -344,7 +344,7 @@ gdjs.TitleScreenCode.mapOfGDgdjs_46TitleScreenCode_46GDnoMistakeObjects3Objects 
 gdjs.TitleScreenCode.condition0IsTrue_0.val = false;
 {
 {gdjs.TitleScreenCode.conditionTrue_1 = gdjs.TitleScreenCode.condition0IsTrue_0;
-gdjs.TitleScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7407628);
+gdjs.TitleScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7407492);
 }
 }if (gdjs.TitleScreenCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Delay Your Dreams.wav", 1, true, 100, 1);
@@ -353,8 +353,8 @@ gdjs.TitleScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 }
 
 
-}; //End of gdjs.TitleScreenCode.eventsList0x710294
-gdjs.TitleScreenCode.mapOfGDgdjs_46TitleScreenCode_46GDCreditsObjects2Objects = Hashtable.newFrom({"Credits": gdjs.TitleScreenCode.GDCreditsObjects2});gdjs.TitleScreenCode.eventsList0x70f344 = function(runtimeScene) {
+}; //End of gdjs.TitleScreenCode.eventsList0x71020c
+gdjs.TitleScreenCode.mapOfGDgdjs_46TitleScreenCode_46GDCreditsObjects2Objects = Hashtable.newFrom({"Credits": gdjs.TitleScreenCode.GDCreditsObjects2});gdjs.TitleScreenCode.eventsList0x70f2bc = function(runtimeScene) {
 
 {
 
@@ -375,7 +375,7 @@ if (gdjs.TitleScreenCode.condition1IsTrue_0.val) {
 }{gdjs.evtTools.storage.readNumberFromJSONFile("SavingData", "LevelLoad", runtimeScene, runtimeScene.getVariables().getFromIndex(0));
 }
 { //Subevents
-gdjs.TitleScreenCode.eventsList0x70f414(runtimeScene);} //End of subevents
+gdjs.TitleScreenCode.eventsList0x70f38c(runtimeScene);} //End of subevents
 }
 
 }
@@ -401,7 +401,7 @@ if (gdjs.TitleScreenCode.condition1IsTrue_0.val) {
 }{runtimeScene.getGame().getVariables().getFromIndex(1).setNumber(2);
 }
 { //Subevents
-gdjs.TitleScreenCode.eventsList0x710294(runtimeScene);} //End of subevents
+gdjs.TitleScreenCode.eventsList0x71020c(runtimeScene);} //End of subevents
 }
 
 }
@@ -427,8 +427,8 @@ if (gdjs.TitleScreenCode.condition1IsTrue_0.val) {
 }
 
 
-}; //End of gdjs.TitleScreenCode.eventsList0x70f344
-gdjs.TitleScreenCode.eventsList0x71172c = function(runtimeScene) {
+}; //End of gdjs.TitleScreenCode.eventsList0x70f2bc
+gdjs.TitleScreenCode.eventsList0x7116a4 = function(runtimeScene) {
 
 {
 
@@ -437,8 +437,8 @@ gdjs.TitleScreenCode.eventsList0x71172c = function(runtimeScene) {
 }
 
 
-}; //End of gdjs.TitleScreenCode.eventsList0x71172c
-gdjs.TitleScreenCode.eventsList0x710d14 = function(runtimeScene) {
+}; //End of gdjs.TitleScreenCode.eventsList0x7116a4
+gdjs.TitleScreenCode.eventsList0x710c8c = function(runtimeScene) {
 
 {
 
@@ -531,33 +531,33 @@ gdjs.TitleScreenCode.GDmistakeScoreObjects2.createFrom(runtimeScene.getObjects("
 }
 }
 { //Subevents
-gdjs.TitleScreenCode.eventsList0x71172c(runtimeScene);} //End of subevents
+gdjs.TitleScreenCode.eventsList0x7116a4(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.TitleScreenCode.eventsList0x710d14
-gdjs.TitleScreenCode.eventsList0x70dc44 = function(runtimeScene) {
+}; //End of gdjs.TitleScreenCode.eventsList0x710c8c
+gdjs.TitleScreenCode.eventsList0x70db54 = function(runtimeScene) {
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Button Movement"); }gdjs.TitleScreenCode.eventsList0x70dcbc(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Button Movement"); }
-}
-
-
-{
-
-
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Buttons"); }gdjs.TitleScreenCode.eventsList0x70f344(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Buttons"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Button Movement"); }gdjs.TitleScreenCode.eventsList0x70dbcc(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Button Movement"); }
 }
 
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Other"); }gdjs.TitleScreenCode.eventsList0x710d14(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Other"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Buttons"); }gdjs.TitleScreenCode.eventsList0x70f2bc(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Buttons"); }
+}
+
+
+{
+
+
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Other"); }gdjs.TitleScreenCode.eventsList0x710c8c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Other"); }
 }
 
 
@@ -568,7 +568,7 @@ if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Other"); }gd
 }
 
 
-}; //End of gdjs.TitleScreenCode.eventsList0x70dc44
+}; //End of gdjs.TitleScreenCode.eventsList0x70db54
 gdjs.TitleScreenCode.eventsList0xb24c0 = function(runtimeScene) {
 
 {
@@ -620,7 +620,7 @@ gdjs.TitleScreenCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Everything"); }gdjs.TitleScreenCode.eventsList0x70dc44(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Everything"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Everything"); }gdjs.TitleScreenCode.eventsList0x70db54(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Everything"); }
 }
 
 

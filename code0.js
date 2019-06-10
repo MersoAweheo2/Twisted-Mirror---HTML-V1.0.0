@@ -3,6 +3,8 @@ gdjs.SplashscreenCode.GDcontrolsObjects1= [];
 gdjs.SplashscreenCode.GDcontrolsObjects2= [];
 gdjs.SplashscreenCode.GDNewObjectObjects1= [];
 gdjs.SplashscreenCode.GDNewObjectObjects2= [];
+gdjs.SplashscreenCode.GDCopyOfcontrolsObjects1= [];
+gdjs.SplashscreenCode.GDCopyOfcontrolsObjects2= [];
 
 gdjs.SplashscreenCode.conditionTrue_0 = {val:false};
 gdjs.SplashscreenCode.condition0IsTrue_0 = {val:false};
@@ -102,7 +104,7 @@ gdjs.SplashscreenCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyRelease
 }if ( gdjs.SplashscreenCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SplashscreenCode.conditionTrue_1 = gdjs.SplashscreenCode.condition1IsTrue_0;
-gdjs.SplashscreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7389428);
+gdjs.SplashscreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7386060);
 }
 }}
 if (gdjs.SplashscreenCode.condition1IsTrue_0.val) {
@@ -129,6 +131,31 @@ gdjs.SplashscreenCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJ
 {
 
 
+gdjs.SplashscreenCode.condition0IsTrue_0.val = false;
+{
+gdjs.SplashscreenCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6)) == 1;
+}if (gdjs.SplashscreenCode.condition0IsTrue_0.val) {
+gdjs.SplashscreenCode.GDCopyOfcontrolsObjects1.createFrom(runtimeScene.getObjects("CopyOfcontrols"));
+{for(var i = 0, len = gdjs.SplashscreenCode.GDCopyOfcontrolsObjects1.length ;i < len;++i) {
+    gdjs.SplashscreenCode.GDCopyOfcontrolsObjects1[i].hide();
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.SplashscreenCode.condition0IsTrue_0.val = false;
+{
+gdjs.SplashscreenCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6)) == 3;
+}if (gdjs.SplashscreenCode.condition0IsTrue_0.val) {
+gdjs.SplashscreenCode.GDcontrolsObjects1.createFrom(runtimeScene.getObjects("controls"));
+{for(var i = 0, len = gdjs.SplashscreenCode.GDcontrolsObjects1.length ;i < len;++i) {
+    gdjs.SplashscreenCode.GDcontrolsObjects1[i].hide();
+}
+}}
 
 }
 
@@ -143,6 +170,8 @@ gdjs.SplashscreenCode.GDcontrolsObjects1.length = 0;
 gdjs.SplashscreenCode.GDcontrolsObjects2.length = 0;
 gdjs.SplashscreenCode.GDNewObjectObjects1.length = 0;
 gdjs.SplashscreenCode.GDNewObjectObjects2.length = 0;
+gdjs.SplashscreenCode.GDCopyOfcontrolsObjects1.length = 0;
+gdjs.SplashscreenCode.GDCopyOfcontrolsObjects2.length = 0;
 
 gdjs.SplashscreenCode.eventsList0xb24c0(runtimeScene);
 return;
