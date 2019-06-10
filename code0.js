@@ -104,7 +104,7 @@ gdjs.SplashscreenCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyRelease
 }if ( gdjs.SplashscreenCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SplashscreenCode.conditionTrue_1 = gdjs.SplashscreenCode.condition1IsTrue_0;
-gdjs.SplashscreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7386060);
+gdjs.SplashscreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7385884);
 }
 }}
 if (gdjs.SplashscreenCode.condition1IsTrue_0.val) {

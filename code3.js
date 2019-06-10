@@ -46,7 +46,7 @@ gdjs.PauseScreenCode.condition3IsTrue_2 = {val:false};
 gdjs.PauseScreenCode.condition4IsTrue_2 = {val:false};
 
 
-gdjs.PauseScreenCode.mapOfGDgdjs_46PauseScreenCode_46GDresumeObjects3Objects = Hashtable.newFrom({"resume": gdjs.PauseScreenCode.GDresumeObjects3});gdjs.PauseScreenCode.mapOfGDgdjs_46PauseScreenCode_46GDlevelObjects2Objects = Hashtable.newFrom({"level": gdjs.PauseScreenCode.GDlevelObjects2});gdjs.PauseScreenCode.eventsList0x727b1c = function(runtimeScene) {
+gdjs.PauseScreenCode.mapOfGDgdjs_46PauseScreenCode_46GDresumeObjects3Objects = Hashtable.newFrom({"resume": gdjs.PauseScreenCode.GDresumeObjects3});gdjs.PauseScreenCode.mapOfGDgdjs_46PauseScreenCode_46GDlevelObjects2Objects = Hashtable.newFrom({"level": gdjs.PauseScreenCode.GDlevelObjects2});gdjs.PauseScreenCode.eventsList0x727a6c = function(runtimeScene) {
 
 {
 
@@ -54,7 +54,7 @@ gdjs.PauseScreenCode.mapOfGDgdjs_46PauseScreenCode_46GDresumeObjects3Objects = H
 gdjs.PauseScreenCode.condition0IsTrue_0.val = false;
 {
 {gdjs.PauseScreenCode.conditionTrue_1 = gdjs.PauseScreenCode.condition0IsTrue_0;
-gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7503756);
+gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7503580);
 }
 }if (gdjs.PauseScreenCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Level" + gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().get("levelSelect")), false);
@@ -65,8 +65,8 @@ gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 }
 
 
-}; //End of gdjs.PauseScreenCode.eventsList0x727b1c
-gdjs.PauseScreenCode.mapOfGDgdjs_46PauseScreenCode_46GDlevelObjects2Objects = Hashtable.newFrom({"level": gdjs.PauseScreenCode.GDlevelObjects2});gdjs.PauseScreenCode.eventsList0x7282c4 = function(runtimeScene) {
+}; //End of gdjs.PauseScreenCode.eventsList0x727a6c
+gdjs.PauseScreenCode.mapOfGDgdjs_46PauseScreenCode_46GDlevelObjects2Objects = Hashtable.newFrom({"level": gdjs.PauseScreenCode.GDlevelObjects2});gdjs.PauseScreenCode.eventsList0x728214 = function(runtimeScene) {
 
 {
 
@@ -74,7 +74,7 @@ gdjs.PauseScreenCode.mapOfGDgdjs_46PauseScreenCode_46GDlevelObjects2Objects = Ha
 gdjs.PauseScreenCode.condition0IsTrue_0.val = false;
 {
 {gdjs.PauseScreenCode.conditionTrue_1 = gdjs.PauseScreenCode.condition0IsTrue_0;
-gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7505452);
+gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7505276);
 }
 }if (gdjs.PauseScreenCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Level1", false);
@@ -85,8 +85,8 @@ gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 }
 
 
-}; //End of gdjs.PauseScreenCode.eventsList0x7282c4
-gdjs.PauseScreenCode.mapOfGDgdjs_46PauseScreenCode_46GDlevelObjects2Objects = Hashtable.newFrom({"level": gdjs.PauseScreenCode.GDlevelObjects2});gdjs.PauseScreenCode.eventsList0x72890c = function(runtimeScene) {
+}; //End of gdjs.PauseScreenCode.eventsList0x728214
+gdjs.PauseScreenCode.mapOfGDgdjs_46PauseScreenCode_46GDlevelObjects2Objects = Hashtable.newFrom({"level": gdjs.PauseScreenCode.GDlevelObjects2});gdjs.PauseScreenCode.eventsList0x72885c = function(runtimeScene) {
 
 {
 
@@ -94,7 +94,7 @@ gdjs.PauseScreenCode.mapOfGDgdjs_46PauseScreenCode_46GDlevelObjects2Objects = Ha
 gdjs.PauseScreenCode.condition0IsTrue_0.val = false;
 {
 {gdjs.PauseScreenCode.conditionTrue_1 = gdjs.PauseScreenCode.condition0IsTrue_0;
-gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7507308);
+gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7507132);
 }
 }if (gdjs.PauseScreenCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Level" + gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().get("levelSelect")), false);
@@ -105,8 +105,8 @@ gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 }
 
 
-}; //End of gdjs.PauseScreenCode.eventsList0x72890c
-gdjs.PauseScreenCode.eventsList0x72937c = function(runtimeScene) {
+}; //End of gdjs.PauseScreenCode.eventsList0x72885c
+gdjs.PauseScreenCode.eventsList0x7292cc = function(runtimeScene) {
 
 {
 
@@ -114,7 +114,7 @@ gdjs.PauseScreenCode.eventsList0x72937c = function(runtimeScene) {
 gdjs.PauseScreenCode.condition0IsTrue_0.val = false;
 {
 {gdjs.PauseScreenCode.conditionTrue_1 = gdjs.PauseScreenCode.condition0IsTrue_0;
-gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7509676);
+gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7509500);
 }
 }if (gdjs.PauseScreenCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.PauseScreenCode.GDTextEntryObjects2 */
@@ -127,8 +127,8 @@ gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 }
 
 
-}; //End of gdjs.PauseScreenCode.eventsList0x72937c
-gdjs.PauseScreenCode.mapOfGDgdjs_46PauseScreenCode_46GDmenuObjects2Objects = Hashtable.newFrom({"menu": gdjs.PauseScreenCode.GDmenuObjects2});gdjs.PauseScreenCode.eventsList0x72729c = function(runtimeScene) {
+}; //End of gdjs.PauseScreenCode.eventsList0x7292cc
+gdjs.PauseScreenCode.mapOfGDgdjs_46PauseScreenCode_46GDmenuObjects2Objects = Hashtable.newFrom({"menu": gdjs.PauseScreenCode.GDmenuObjects2});gdjs.PauseScreenCode.eventsList0x7271ec = function(runtimeScene) {
 
 {
 
@@ -221,7 +221,7 @@ gdjs.PauseScreenCode.GDresumeObjects2.createFrom(gdjs.PauseScreenCode.GDresumeOb
 }if ( gdjs.PauseScreenCode.condition0IsTrue_0.val ) {
 {
 {gdjs.PauseScreenCode.conditionTrue_1 = gdjs.PauseScreenCode.condition1IsTrue_0;
-gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7501412);
+gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7501236);
 }
 }}
 if (gdjs.PauseScreenCode.condition1IsTrue_0.val) {
@@ -270,7 +270,7 @@ gdjs.PauseScreenCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNu
 }if ( gdjs.PauseScreenCode.condition2IsTrue_0.val ) {
 {
 {gdjs.PauseScreenCode.conditionTrue_1 = gdjs.PauseScreenCode.condition3IsTrue_0;
-gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7503204);
+gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7503028);
 }
 }}
 }
@@ -278,7 +278,7 @@ gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 if (gdjs.PauseScreenCode.condition3IsTrue_0.val) {
 {}
 { //Subevents
-gdjs.PauseScreenCode.eventsList0x727b1c(runtimeScene);} //End of subevents
+gdjs.PauseScreenCode.eventsList0x727a6c(runtimeScene);} //End of subevents
 }
 
 }
@@ -303,7 +303,7 @@ gdjs.PauseScreenCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNu
 }if ( gdjs.PauseScreenCode.condition2IsTrue_0.val ) {
 {
 {gdjs.PauseScreenCode.conditionTrue_1 = gdjs.PauseScreenCode.condition3IsTrue_0;
-gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7505188);
+gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7505012);
 }
 }}
 }
@@ -311,7 +311,7 @@ gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 if (gdjs.PauseScreenCode.condition3IsTrue_0.val) {
 
 { //Subevents
-gdjs.PauseScreenCode.eventsList0x7282c4(runtimeScene);} //End of subevents
+gdjs.PauseScreenCode.eventsList0x728214(runtimeScene);} //End of subevents
 }
 
 }
@@ -336,7 +336,7 @@ gdjs.PauseScreenCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNu
 }if ( gdjs.PauseScreenCode.condition2IsTrue_0.val ) {
 {
 {gdjs.PauseScreenCode.conditionTrue_1 = gdjs.PauseScreenCode.condition3IsTrue_0;
-gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7506756);
+gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7506580);
 }
 }}
 }
@@ -349,7 +349,7 @@ gdjs.PauseScreenCode.GDTextEntryObjects2.createFrom(runtimeScene.getObjects("Tex
 }
 }
 { //Subevents
-gdjs.PauseScreenCode.eventsList0x72890c(runtimeScene);} //End of subevents
+gdjs.PauseScreenCode.eventsList0x72885c(runtimeScene);} //End of subevents
 }
 
 }
@@ -390,7 +390,7 @@ gdjs.PauseScreenCode.condition1IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased
 }if ( gdjs.PauseScreenCode.condition1IsTrue_0.val ) {
 {
 {gdjs.PauseScreenCode.conditionTrue_1 = gdjs.PauseScreenCode.condition2IsTrue_0;
-gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7509228);
+gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7509052);
 }
 }}
 }
@@ -401,7 +401,7 @@ gdjs.PauseScreenCode.GDTextEntryObjects2.createFrom(runtimeScene.getObjects("Tex
 }
 }
 { //Subevents
-gdjs.PauseScreenCode.eventsList0x72937c(runtimeScene);} //End of subevents
+gdjs.PauseScreenCode.eventsList0x7292cc(runtimeScene);} //End of subevents
 }
 
 }
@@ -426,7 +426,7 @@ gdjs.PauseScreenCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNu
 }if ( gdjs.PauseScreenCode.condition2IsTrue_0.val ) {
 {
 {gdjs.PauseScreenCode.conditionTrue_1 = gdjs.PauseScreenCode.condition3IsTrue_0;
-gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7511188);
+gdjs.PauseScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7511012);
 }
 }}
 }
@@ -470,13 +470,13 @@ gdjs.PauseScreenCode.GDlevelObjects1.createFrom(runtimeScene.getObjects("level")
 }
 
 
-}; //End of gdjs.PauseScreenCode.eventsList0x72729c
+}; //End of gdjs.PauseScreenCode.eventsList0x7271ec
 gdjs.PauseScreenCode.eventsList0xb24c0 = function(runtimeScene) {
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Main Scripts"); }gdjs.PauseScreenCode.eventsList0x72729c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Main Scripts"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Main Scripts"); }gdjs.PauseScreenCode.eventsList0x7271ec(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Main Scripts"); }
 }
 
 
